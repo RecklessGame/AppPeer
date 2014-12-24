@@ -120,9 +120,9 @@
 }
 
 - (void)disconnectFromAll{
-    for(APPeer* peer in _peers){
-        [self disconnectFromPeer:peer];
-    }
+	for(NSString* peerKey in _peers.allKeys){
+		[self disconnectFromPeer: _peers[peerKey]];
+	}
 }
 
 - (void)disconnectFromPeer:(APPeer*)peer{

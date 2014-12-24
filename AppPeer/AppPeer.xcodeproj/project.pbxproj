@@ -378,7 +378,7 @@
 		0D6866DB18283B0E00BF2519 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Wherecloud Inc.";
 			};
 			buildConfigurationList = 0D6866DE18283B0E00BF2519 /* Build configuration list for PBXProject "AppPeer" */;
@@ -536,10 +536,6 @@
 		0D4E22651829972C00BE60B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7s,
-					armv7,
-				);
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -552,7 +548,6 @@
 				PRODUCT_NAME = AppPeerIOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "i386 armv7 armv7s x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -560,10 +555,6 @@
 		0D4E22661829972C00BE60B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7s,
-					armv7,
-				);
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -577,7 +568,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "i386 armv7 armv7s x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -585,7 +575,6 @@
 		0D4E22671829972C00BE60B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -600,7 +589,6 @@
 		0D4E22681829972C00BE60B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = AppPeer;
@@ -773,6 +761,7 @@
 				9645422418F31530008009FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
