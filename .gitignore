@@ -1,3 +1,6 @@
+# Mac OSX file system
 .DS_Store
 
+# Xcode settings
 xcuserdata
+DerivedData/
